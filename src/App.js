@@ -6,6 +6,8 @@ import Home from './components/Layouts/Home';
 import Sneakers from './components/sneakers/Sneakers';
 import './style.css';
 import Sneaker from './components/sneakers/Sneaker';
+import Carts from './components/sneakers/Carts';
+import PageNotFound from './components/Layouts/PageNotFound';
 
 const App = () => {
 	return (
@@ -16,6 +18,8 @@ const App = () => {
 						<Route path='/' exact component={Home} />
 						<Route path='/sneakers' exact component={Sneakers} />
 						<Route path='/sneaker/:sneakerId' exact component={Sneaker} />
+						<Route path='/carts' exact component={Carts} />
+						<Route exact component={PageNotFound} />
 					</Switch>
 				</div>
 			</Provider>

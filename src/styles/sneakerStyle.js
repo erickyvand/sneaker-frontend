@@ -17,6 +17,16 @@ const useStyles = makeStyles(theme => ({
 			backgroundColor: 'wheat',
 		},
 	},
+	badge: {
+		color: 'wheat',
+		textDecoration: 'none',
+		'&:hover': {
+			textDecoration: 'underline',
+		},
+	},
+	priceCell: {
+		fontWeight: 'bold',
+	},
 }));
 
 export default useStyles;
