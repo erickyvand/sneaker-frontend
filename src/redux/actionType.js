@@ -1,0 +1,2 @@
+export const VIEW_SNEAKERS = 'VIEW_SNEAKERS';
+export const VIEW_SNEAKER = 'VIEW_SNEAKER';

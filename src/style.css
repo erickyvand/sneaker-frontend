@@ -1,0 +1,16 @@
+body{
+	background-color: #184b52;
+}
+
+.container {
+	width: 75%;
+	margin: auto;
+	padding: 0px;
+	margin-top: 50px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #2a2b2b;
+}
+
+.text-color {
+	color: wheat
+}
