@@ -9,6 +9,11 @@ const useStyles = makeStyles(theme => ({
 			textDecoration: 'underline',
 		},
 	},
+	notFoundText: {
+		color: 'wheat',
+		textAlign: 'center',
+		margin: 90
+	},
 }));
 
 export default useStyles;

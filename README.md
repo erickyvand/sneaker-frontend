@@ -1,1 +1,11 @@
-# sneaker-frontend
+# How to get started with Sneaker Frontend
+- Install node if you don't have it in your computer.
+- On your computer open terminal or CMD.
+- Run git clone `https://github.com/erickyvand/sneaker-frontend.git` to get the project on your computer.
+- Run cd `sneaker-frontend` to move to the location of the project.
+- Once your in sneaker folder, run `npm install` to install packages.
+- Inside the project folder structure find `.en.example` file you will find the url of the backend.
+- Create `.env` file in your project and include the backend url.
+- Go to [sneaker backend repo](https://github.com/erickyvand/sneaker) and follow instructions to start the server.
+- Once the server has started return in terminal in `sneaker-frontend` folder.
+- Run `npm run dev` and wait for the default browser to open.
